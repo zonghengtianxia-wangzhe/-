@@ -1,0 +1,14 @@
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ipmi_stm32f205rctx_v1.0\croutine.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+ipmi_stm32f205rctx_v1.0\croutine.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Core/Inc/FreeRTOSConfig.h
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+ipmi_stm32f205rctx_v1.0\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

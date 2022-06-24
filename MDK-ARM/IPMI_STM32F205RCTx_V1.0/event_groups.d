@@ -1,0 +1,15 @@
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+ipmi_stm32f205rctx_v1.0\event_groups.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+ipmi_stm32f205rctx_v1.0\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

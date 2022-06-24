@@ -1,0 +1,721 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jun 24 16:37:49 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 176)
+LDSCRIPT = STM32F205RCTx_FLASH.ld
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 16)
+TARGET = IPMI_STM32F205RCTx_V1.0
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 131)
+AS_DEFS = 
+# makefile (from 'Makefile', line 140)
+AS_INCLUDES = -ICore\Inc
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0
+# default
+SHELL := sh.exe
+# environment
+CLION = D:\CLion 2021.3.3\bin;
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\30d9c6cd9483b2cc586687151bcbcd635f373630","_co 
+rruptedFile":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
+# makefile (from 'Makefile', line 109)
+SZ = $(PREFIX)size
+# environment
+VBOX_MSI_INSTALL_PATH = D:\VirtualBox\
+# makefile (from 'Makefile', line 169)
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"$(@:%.o=%.d)"
+# environment
+ONEDRIVE = C:\Users\tao.feng\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# makefile (from 'Makefile', line 108)
+CP = $(PREFIX)objcopy
+# makefile (from 'Makefile', line 23)
+DEBUG = 1
+# environment
+TMP = C:\Users\TAO~1.FEN\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 107)
+AS = $(PREFIX)gcc -x assembler-with-cpp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-df1a5ab7-76f0-4d4c-b3eb-c06a7850ec0f-sock
+# environment
+VSCODE_CWD = C:\Users\tao.feng\Documents\STM32CubeMX\IPMI_STM32F205RCTx_V1.0
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = E:\VM16\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\mingw64\bin;D:\OpenOCD-20211118-0.11.0\bin;D:\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\Git\cmd;C:\Program Files\TortoiseSVN\bin;;D:\WinSCP\;D:\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Users\tao.feng\AppData\Local\Microsoft\WindowsApps;C:\Users\tao.feng\.dotnet\tools;D:\mingw64\bin;D:\CLion 2021.3.3\bin;;D:\OpenOCD-20211118-0.11.0\bin;D:\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;D:\Git\cmd;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\tao.feng
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 181)
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14912_OUTSCUSLBWZKBWLY
+# makefile (from 'Makefile', line 90)
+ASM_SOURCES = startup_stm32f205xx.s
+# makefile (from 'Makefile', line 25)
+OPT = -Og
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = B109405
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+USERDNSDOMAIN = UCAS.COM.CN
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = tao.feng
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\tao.feng\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\DC
+# makefile (from 'Makefile', line 97)
+PREFIX = arm-none-eabi-
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = UCAS
+# makefile (from 'Makefile', line 134)
+C_DEFS = -DUSE_HAL_DRIVER -DSTM32F205xx
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 127)
+MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
+# makefile (from 'Makefile', line 144)
+C_INCLUDES = -ICore/Inc -IFATFS/Target -IFATFS/App -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IMiddlewares/Third_Party/FreeRTOS/Source/include -IMiddlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IMiddlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -IMiddlewares/Third_Party/FatFs/src -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 111)
+HEX = $(CP) -O ihex
+# makefile (from 'Makefile', line 106)
+CC = $(PREFIX)gcc
+# makefile (from 'Makefile', line 32)
+BUILD_DIR = build
+# makefile (from 'Makefile', line 159)
+ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# makefile (from 'Makefile', line 118)
+CPU = -mcpu=cortex-m3
+# environment
+LOCALAPPDATA = C:\Users\tao.feng\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# makefile (from 'Makefile', line 180)
+LIBDIR = 
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\5e8b0dd5ce030646e9e50280fcbaab27-1.68.1-main-sock
+# environment
+HOMEPATH = \Users\tao.feng
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\tao.feng\AppData\Roaming
+# environment
+TEMP = C:\Users\TAO~1.FEN\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 112)
+BIN = $(CP) -O binary -S
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 179)
+LIBS = -lc -lm -lnosys 
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 38)
+C_SOURCES = Core/Src/main.c Core/Src/gpio.c Core/Src/freertos.c Core/Src/adc.c Core/Src/crc.c Core/Src/dma.c Core/Src/i2c.c Core/Src/iwdg.c Core/Src/usart.c Core/Src/stm32f2xx_it.c Core/Src/stm32f2xx_hal_msp.c Core/Src/stm32f2xx_hal_timebase_tim.c FATFS/Target/user_diskio.c FATFS/App/fatfs.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c Core/Src/system_stm32f2xx.c Middlewares/Third_Party/FatFs/src/diskio.c Middlewares/Third_Party/FatFs/src/ff.c Middlewares/Third_Party/FatFs/src/ff_gen_drv.c Middlewares/Third_Party/FatFs/src/option/syscall.c Middlewares/Third_Party/FreeRTOS/Source/croutine.c Middlewares/Third_Party/FreeRTOS/Source/event_groups.c Middlewares/Third_Party/FreeRTOS/Source/list.c Middlewares/Third_Party/FreeRTOS/Source/queue.c Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c Middlewares/Third_Party/FreeRTOS/Source/tasks.c Middlewares/Third_Party/FreeRTOS/Source/timers.c Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c  
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8c01
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 194)
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 14912
+# environment
+USERDOMAIN_ROAMINGPROFILE = UCAS
+# variable set hash-table stats:
+# Load=122/1024=12%, Rehash=0, Collisions=19/182=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0, mtime 1656059849): 14 files, no impossibilities.
+# Middlewares/Third_Party/FatFs/src/option (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/Middlewares/Third_Party/FatFs/src/option, mtime 1656059256): No files, no impossibilities so far.
+# FATFS/App (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/FATFS/App, mtime 1656059815): No files, no impossibilities so far.
+# build: could not be stat'd.
+# Middlewares/Third_Party/FreeRTOS/Source (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/Middlewares/Third_Party/FreeRTOS/Source, mtime 1656059100): No files, no impossibilities so far.
+# Drivers/STM32F2xx_HAL_Driver/Src (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/Drivers/STM32F2xx_HAL_Driver/Src, mtime 1656059100): No files, no impossibilities so far.
+# FATFS/Target (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/FATFS/Target, mtime 1656059815): No files, no impossibilities so far.
+# Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS, mtime 1656059100): No files, no impossibilities so far.
+# Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang, mtime 1656059100): 7 files, no impossibilities.
+# Core/Src (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/Core/Src, mtime 1656059816): 10 files, no impossibilities so far.
+# Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3, mtime 1656059816): No files, no impossibilities so far.
+# Middlewares/Third_Party/FatFs/src (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/Middlewares/Third_Party/FatFs/src, mtime 1656059256): No files, no impossibilities so far.
+
+# 31 files, no impossibilities in 12 directories.
+
+# Implicit Rules
+
+build/%.o: %.c Makefile | build
+#  recipe to execute (from 'Makefile', line 198):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/%.o: %.s Makefile | build
+#  recipe to execute (from 'Makefile', line 201):
+	$(AS) -c $(CFLAGS) $< -o $@
+
+build/%.hex: build/%.elf | build
+#  recipe to execute (from 'Makefile', line 208):
+	$(HEX) $< $@
+	
+
+build/%.bin: build/%.elf | build
+#  recipe to execute (from 'Makefile', line 211):
+	$(BIN) $< $@	
+	
+
+# 4 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+build/crc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_adc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_tim.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/fatfs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/main.o: Core/Src/main.c Makefile | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'Makefile', line 198):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+all: build/IPMI_STM32F205RCTx_V1.0.elf build/IPMI_STM32F205RCTx_V1.0.hex build/IPMI_STM32F205RCTx_V1.0.bin
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+# Not a target:
+build/stm32f2xx_hal_pwr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/usart.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/heap_4.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/IPMI_STM32F205RCTx_V1.0.bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_flash.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_dma.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_adc_ex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_tim_ex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/syscall.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/IPMI_STM32F205RCTx_V1.0.hex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-24 16:36:58
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/event_groups.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/dma.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_pwr_ex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/system_stm32f2xx.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/gpio.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/iwdg.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir $@		
+
+# Not a target:
+build/stm32f2xx_hal_cortex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/cmsis_os.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/diskio.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_flash_ex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stream_buffer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/IPMI_STM32F205RCTx_V1.0.elf: build/main.o build/gpio.o build/freertos.o build/adc.o build/crc.o build/dma.o build/i2c.o build/iwdg.o build/usart.o build/stm32f2xx_it.o build/stm32f2xx_hal_msp.o build/stm32f2xx_hal_timebase_tim.o build/user_diskio.o build/fatfs.o build/stm32f2xx_hal_adc.o build/stm32f2xx_hal_adc_ex.o build/stm32f2xx_hal.o build/stm32f2xx_hal_rcc.o build/stm32f2xx_hal_rcc_ex.o build/stm32f2xx_hal_cortex.o build/stm32f2xx_hal_flash.o build/stm32f2xx_hal_flash_ex.o build/stm32f2xx_hal_pwr.o build/stm32f2xx_hal_pwr_ex.o build/stm32f2xx_hal_gpio.o build/stm32f2xx_hal_dma.o build/stm32f2xx_hal_dma_ex.o build/stm32f2xx_hal_exti.o build/stm32f2xx_hal_crc.o build/stm32f2xx_hal_i2c.o build/stm32f2xx_hal_iwdg.o build/stm32f2xx_hal_tim.o build/stm32f2xx_hal_tim_ex.o build/stm32f2xx_hal_uart.o build/system_stm32f2xx.o build/diskio.o build/ff.o build/ff_gen_drv.o build/syscall.o build/croutine.o build/event_groups.o build/list.o build/queue.o build/stream_buffer.o build/tasks.o build/timers.o build/cmsis_os.o build/heap_4.o build/port.o build/startup_stm32f205xx.o Makefile
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'Makefile', line 204):
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
+
+# Not a target:
+build/queue.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/freertos.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_iwdg.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Src/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-24 16:27:35
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f2xx_hal_dma_ex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_msp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_gpio.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/user_diskio.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/startup_stm32f205xx.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_crc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_rcc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/port.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_exti.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/i2c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/ff.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 220):
+	-rm -fR $(BUILD_DIR)
+
+# Not a target:
+build/stm32f2xx_it.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/adc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/ff_gen_drv.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/timers.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_rcc_ex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/croutine.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_i2c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_timebase_tim.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f2xx_hal_uart.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/tasks.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/list.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=60/1024=6%, Rehash=0, Collisions=11/140=8%
+# VPATH Search Paths
+
+vpath %.c Core/Src;Drivers/STM32F2xx_HAL_Driver/Src;FATFS/App;FATFS/Target;Middlewares/Third_Party/FatFs/src;Middlewares/Third_Party/FatFs/src/option;Middlewares/Third_Party/FreeRTOS/Source;Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3;Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang
+
+# 1 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 103 / storage = 1867 B / avg = 18 B
+# current buf: size = 8162 B / used = 1867 B / count = 103 / avg = 18 B
+
+# strcache performance: lookups = 145 / hit rate = 28%
+# hash-table stats:
+# Load=103/8192=1%, Rehash=0, Collisions=4/145=3%
+# Finished Make data base on Fri Jun 24 16:37:49 2022
+
+ 
