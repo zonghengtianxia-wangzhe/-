@@ -1,0 +1,1 @@
+ipmi_stm32f205rctx_v1.0\startup_stm32f205xx.o: startup_stm32f205xx.s
