@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 24 16:37:49 2022
+# Make data base, printed on Fri Jun 24 17:38:36 2022
 
 # Variables
 
@@ -49,8 +49,7 @@ CLION = D:\CLion 2021.3.3\bin;
 # environment
 WINDIR = C:\Windows
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\30d9c6cd9483b2cc586687151bcbcd635f373630","_co 
-rruptedFile":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\tao.feng\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
 # makefile (from 'Makefile', line 109)
 SZ = $(PREFIX)size
 # environment
@@ -80,7 +79,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-df1a5ab7-76f0-4d4c-b3eb-c06a7850ec0f-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-51a32763-084a-4e28-9a69-44e08a9edce8-sock
 # environment
 VSCODE_CWD = C:\Users\tao.feng\Documents\STM32CubeMX\IPMI_STM32F205RCTx_V1.0
 # default
@@ -110,7 +109,7 @@ LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BU
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14912_OUTSCUSLBWZKBWLY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3484_ZBMYGIAMZFNWKUJQ
 # makefile (from 'Makefile', line 90)
 ASM_SOURCES = startup_stm32f205xx.s
 # makefile (from 'Makefile', line 25)
@@ -138,7 +137,7 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\tao.feng\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files\Common Files
 # environment
@@ -252,7 +251,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 14912
+VSCODE_PID = 3484
 # environment
 USERDOMAIN_ROAMINGPROFILE = UCAS
 # variable set hash-table stats:
@@ -264,7 +263,7 @@ USERDOMAIN_ROAMINGPROFILE = UCAS
 
 # Directories
 
-# . (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0, mtime 1656059849): 14 files, no impossibilities.
+# . (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0, mtime 1656063309): 16 files, no impossibilities.
 # Middlewares/Third_Party/FatFs/src/option (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/Middlewares/Third_Party/FatFs/src/option, mtime 1656059256): No files, no impossibilities so far.
 # FATFS/App (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/FATFS/App, mtime 1656059815): No files, no impossibilities so far.
 # build: could not be stat'd.
@@ -277,7 +276,7 @@ USERDOMAIN_ROAMINGPROFILE = UCAS
 # Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3, mtime 1656059816): No files, no impossibilities so far.
 # Middlewares/Third_Party/FatFs/src (key c:/Users/tao.feng/Documents/STM32CubeMX/IPMI_STM32F205RCTx_V1.0/Middlewares/Third_Party/FatFs/src, mtime 1656059256): No files, no impossibilities so far.
 
-# 31 files, no impossibilities in 12 directories.
+# 33 files, no impossibilities in 12 directories.
 
 # Implicit Rules
 
@@ -513,7 +512,8 @@ build/stream_buffer.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-build/IPMI_STM32F205RCTx_V1.0.elf: build/main.o build/gpio.o build/freertos.o build/adc.o build/crc.o build/dma.o build/i2c.o build/iwdg.o build/usart.o build/stm32f2xx_it.o build/stm32f2xx_hal_msp.o build/stm32f2xx_hal_timebase_tim.o build/user_diskio.o build/fatfs.o build/stm32f2xx_hal_adc.o build/stm32f2xx_hal_adc_ex.o build/stm32f2xx_hal.o build/stm32f2xx_hal_rcc.o build/stm32f2xx_hal_rcc_ex.o build/stm32f2xx_hal_cortex.o build/stm32f2xx_hal_flash.o build/stm32f2xx_hal_flash_ex.o build/stm32f2xx_hal_pwr.o build/stm32f2xx_hal_pwr_ex.o build/stm32f2xx_hal_gpio.o build/stm32f2xx_hal_dma.o build/stm32f2xx_hal_dma_ex.o build/stm32f2xx_hal_exti.o build/stm32f2xx_hal_crc.o build/stm32f2xx_hal_i2c.o build/stm32f2xx_hal_iwdg.o build/stm32f2xx_hal_tim.o build/stm32f2xx_hal_tim_ex.o build/stm32f2xx_hal_uart.o build/system_stm32f2xx.o build/diskio.o build/ff.o build/ff_gen_drv.o build/syscall.o build/croutine.o build/event_groups.o build/list.o build/queue.o build/stream_buffer.o build/tasks.o build/timers.o build/cmsis_os.o build/heap_4.o build/port.o build/startup_stm32f205xx.o Makefile
+build/IPMI_STM32F205RCTx_V1.0.elf: build/main.o build/gpio.o build/freertos.o build/adc.o build/crc.o build/dma.o build/i2c.o build/iwdg.o build/usart.o build/stm32f2xx_it.o build/stm32f2xx_hal_msp.o build/stm32f2xx_hal_timebase_tim.o build/user_diskio.o build/fatfs.o build/stm32f2xx_hal_adc.o build/stm32f2xx_hal_adc_ex.o build/stm32f2xx_hal.o build/stm32f2xx_hal_rcc.o build/stm32f2xx_hal_rcc_ex.o build/stm32f2xx_hal_cortex.o build/stm32f2xx_hal_flash.o build/stm32f2xx_hal_flash_ex.o build/stm32f2xx_hal_pwr.o build/st 
+m32f2xx_hal_pwr_ex.o build/stm32f2xx_hal_gpio.o build/stm32f2xx_hal_dma.o build/stm32f2xx_hal_dma_ex.o build/stm32f2xx_hal_exti.o build/stm32f2xx_hal_crc.o build/stm32f2xx_hal_i2c.o build/stm32f2xx_hal_iwdg.o build/stm32f2xx_hal_tim.o build/stm32f2xx_hal_tim_ex.o build/stm32f2xx_hal_uart.o build/system_stm32f2xx.o build/diskio.o build/ff.o build/ff_gen_drv.o build/syscall.o build/croutine.o build/event_groups.o build/list.o build/queue.o build/stream_buffer.o build/tasks.o build/timers.o build/cmsis_os.o build/heap_4.o build/port.o build/startup_stm32f205xx.o Makefile
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has been updated.
@@ -545,7 +545,7 @@ build/stm32f2xx_hal_iwdg.o:
 # Not a target:
 Core/Src/main.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-24 16:27:35
+#  Last modified 2022-06-24 17:34:37
 #  File has been updated.
 #  Successfully updated.
 
@@ -710,12 +710,12 @@ vpath %.c Core/Src;Drivers/STM32F2xx_HAL_Driver/Src;FATFS/App;FATFS/Target;Middl
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 103 / storage = 1867 B / avg = 18 B
-# current buf: size = 8162 B / used = 1867 B / count = 103 / avg = 18 B
+# strcache buffers: 1 (0) / strings = 105 / storage = 1882 B / avg = 17 B
+# current buf: size = 8162 B / used = 1882 B / count = 105 / avg = 17 B
 
-# strcache performance: lookups = 145 / hit rate = 28%
+# strcache performance: lookups = 147 / hit rate = 28%
 # hash-table stats:
-# Load=103/8192=1%, Rehash=0, Collisions=4/145=3%
-# Finished Make data base on Fri Jun 24 16:37:49 2022
+# Load=105/8192=1%, Rehash=0, Collisions=4/147=3%
+# Finished Make data base on Fri Jun 24 17:38:36 2022
 
  
